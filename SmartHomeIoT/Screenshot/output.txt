@@ -1,0 +1,50 @@
+PS C:\WINDOWS\system32> E:
+PS E:\> cd \Code\SmartHomeIoT
+PS E:\Code\SmartHomeIoT> javac *.java
+PS E:\Code\SmartHomeIoT> java Main
+========================================
+  SMART HOME IoT MONITORING SYSTEM
+========================================
+
+--- PEMBACAAN SENSOR ---
+Sensor berhasil membaca suhu ruangan.
+Ruangan gelap. Lampu dinyalakan.
+Suhu panas. Kipas otomatis menyala pada kecepatan 3.
+
+--- POLIMORFISME MELALUI ABSTRACT CLASS ---
+ID Perangkat     : SNS-01
+Nama             : Sensor Suhu
+Lokasi           : Ruang Tamu
+Status           : AKTIF
+Suhu terukur     : 30.5 Celsius
+----------------------------------------
+ID Perangkat     : LMP-01
+Nama             : Lampu Utama
+Lokasi           : Ruang Tamu
+Status           : AKTIF
+Kecerahan       : 80%
+----------------------------------------
+ID Perangkat     : KPS-01
+Nama             : Kipas Pintar
+Lokasi           : Ruang Tamu
+Status           : AKTIF
+Kecepatan kipas  : 3
+----------------------------------------
+
+--- POLIMORFISME MELALUI INTERFACE ---
+Status kipas     : AKTIF
+Kecepatan kipas  : 3
+Kipas berhasil dimatikan.
+Status kipas     : NONAKTIF
+Kecepatan kipas  : 0
+
+--- KONTROL LAMPU MANUAL ---
+Lampu berhasil dimatikan secara manual.
+ID Perangkat     : LMP-01
+Nama             : Lampu Utama
+Lokasi           : Ruang Tamu
+Status           : NONAKTIF
+Kecerahan       : 80%
+
+Simulasi Smart Home IoT selesai.
+PS E:\Code\SmartHomeIoT>
